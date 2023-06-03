@@ -5,6 +5,8 @@ import Animais from '../../assets/images/animais1.png'
 import NodeCrud from '../../assets/images/nodeCrud.png'
 import Algorithms from '../../assets/images/algorithms1.png'
 
+import Link from 'next/link'
+
 
 export default function portfolio() {
     return (
@@ -13,9 +15,11 @@ export default function portfolio() {
                 <h1 className="mb-5 text-xl font-medium">Front end</h1>
                 <div className="grid grid-cols-2 gap-8 justify-center align-top max-[450px]:grid-cols-1">
                     <div className=" flex flex-col items-center text-center">
-                        <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                            <Image className='h-full w-full rounded-lg' src={SocialPage}/>
-                        </div>
+                        <Link href="/portolio/dogs">
+                            <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
+                                <Image className='h-full w-full rounded-lg' src={SocialPage}/>
+                            </div>
+                        </Link>    
                         <h1 className="mb-1 text-lg  font-normal">Dogs Social</h1>
                         <p className="text-sm">
                             social network specifically for dogs, similar to Instagram.
@@ -23,9 +27,11 @@ export default function portfolio() {
                     </div>
 
                     <div className=" flex flex-col items-center text-center">
-                        <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                            <Image className='h-full w-full rounded-lg' src={Bikecraft}/>
-                        </div>
+                        <Link href="/portfolio/bikecraft">
+                            <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
+                                <Image className='h-full w-full rounded-lg' src={Bikecraft}/>
+                            </div>
+                        </Link>
                         <h1 className="mb-1 text-lg font-normal">Bikecraft</h1>
                         <p className="text-sm">
                             e-commerce project built with HTML, CSS, and JavaScript
@@ -33,9 +39,11 @@ export default function portfolio() {
                     </div>
                    
                     <div className=" flex flex-col items-center text-center">
-                        <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                            <Image className='h-full w-full rounded-lg' src={Animais}/>
-                        </div>
+                        <Link href="/portfolio/animals">
+                            <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
+                                <Image className='h-full w-full rounded-lg' src={Animais}/>
+                            </div>
+                        </Link>
                         <h1 className="mb-1 text-lg font-normal">Animais api BTC</h1>
                         <p className="text-sm">
                             project developed using HTML, CSS, and JavaScript. By incorporating a Bitcoin API.
@@ -47,9 +55,11 @@ export default function portfolio() {
                 <h1 className="mb-5 text-xl font-medium">Back end</h1>
                 <div className="grid grid-cols-2 gap-8 justify-center align-top max-[450px]:grid-cols-1">
                     <div className=" flex flex-col items-center text-center">
-                        <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                            <Image className='h-full w-full rounded-lg' src={NodeCrud}/>
-                        </div>
+                        <Link href="/portfolio/nodecrud">
+                            <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
+                                <Image className='h-full w-full rounded-lg' src={NodeCrud}/>
+                            </div>
+                        </Link>
                         <h1 className="mb-1 text-lg font-normal">Crud with nodeJs and mySql</h1>
                         <p className="text-sm">
                             project developed using Node.js, MySQL, Express, Handlebars, and Bootstrap.
@@ -69,9 +79,11 @@ export default function portfolio() {
                 <h1 className="mb-5 text-xl font-medium">Algorithms</h1>
                 <div className="grid grid-cols-2 gap-8 justify-center align-top max-[450px]:grid-cols-1">
                     <div className=" flex flex-col items-center text-center">
-                        <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                            <Image className='h-full w-full rounded-lg' src={Algorithms}/>
-                        </div>
+                        <Link href="/portfolio/javaalgo">
+                            <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
+                                <Image className='h-full w-full rounded-lg' src={Algorithms}/>
+                            </div>
+                        </Link>
                         <h1 className="mb-1 text-lg font-normal">JavaAlgo</h1>
                         <p className="text-sm">
                             JavaAlgo is a repository created for me to store my Java-based algorithms and data structure codes
