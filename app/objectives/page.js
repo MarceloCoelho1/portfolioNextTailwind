@@ -10,7 +10,9 @@ export default function objectives() {
       <div className='max-w-lg flex justify-center m-auto'>
         <Image className='w-full h-64 mt-5' src={CodingGif}/>
       </div>
-      <Objectives/>
+      <div className='initialized'>
+        <Objectives/>
+      </div>
       
     </>
   )
