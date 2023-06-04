@@ -75,25 +75,25 @@ export default function marcelo() {
                 <h1 className='text-xl max-w-max border-b-4 border-zinc-700 font-normal'>Socials</h1>
                 <ul className='mt-4'>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg'>
+                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <GithubLogo />
                             @MarceloCoelho1
                         </a>
                     </li>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg'>
+                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <InstagramLogo/>
                             @Marcelo_henri22
                         </a>
                     </li>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg'>
+                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <LinkedinLogo/>
                             @MarceloBrito
                         </a>
                     </li>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg'>
+                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <Download weight='fill'/>
                             Meu CV
                         </a>

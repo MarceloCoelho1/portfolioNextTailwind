@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SocialPage from '../../assets/images/socialPage.png'
+import SocialPage from '../../assets/images/socialPageLogin.png'
 import Bikecraft from '../../assets/images/bikecraft.png'
 import Animais from '../../assets/images/animais1.png'
 import NodeCrud from '../../assets/images/nodeCrud.png'
@@ -17,7 +17,7 @@ export default function portfolio() {
                     <div className=" flex flex-col items-center text-center">
                         <Link href="/portfolio/dogs">
                             <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                                <Image className='h-full w-full rounded-lg' src={SocialPage}/>
+                                <Image className='h-full  rounded-lg' src={SocialPage}/>
                             </div>
                         </Link>    
                         <h1 className="mb-1 text-lg  font-normal">Dogs Social</h1>
@@ -29,7 +29,7 @@ export default function portfolio() {
                     <div className=" flex flex-col items-center text-center">
                         <Link href="/portfolio/bikecraft">
                             <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                                <Image className='h-full w-full rounded-lg' src={Bikecraft}/>
+                                <Image className='h-full  rounded-lg' src={Bikecraft}/>
                             </div>
                         </Link>
                         <h1 className="mb-1 text-lg font-normal">Bikecraft</h1>
@@ -41,7 +41,7 @@ export default function portfolio() {
                     <div className=" flex flex-col items-center text-center">
                         <Link href="/portfolio/animals">
                             <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                                <Image className='h-full w-full rounded-lg' src={Animais}/>
+                                <Image className='h-full  rounded-lg' src={Animais}/>
                             </div>
                         </Link>
                         <h1 className="mb-1 text-lg font-normal">Animais api BTC</h1>
@@ -57,7 +57,7 @@ export default function portfolio() {
                     <div className=" flex flex-col items-center text-center">
                         <Link href="/portfolio/nodecrud">
                             <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                                <Image className='h-full w-full rounded-lg' src={NodeCrud}/>
+                                <Image className='h-full rounded-lg' src={NodeCrud}/>
                             </div>
                         </Link>
                         <h1 className="mb-1 text-lg font-normal">Crud with nodeJs and mySql</h1>
@@ -81,7 +81,7 @@ export default function portfolio() {
                     <div className=" flex flex-col items-center text-center">
                         <Link href="/portfolio/javaalgo ">
                             <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
-                                <Image className='h-full w-full rounded-lg' src={Algorithms}/>
+                                <Image className='h-full rounded-lg' src={Algorithms}/>
                             </div>
                         </Link>
                         <h1 className="mb-1 text-lg font-normal">JavaAlgo</h1>

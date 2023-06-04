@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .initialized {
-
     animation: initialized .9s forwards;
 }
 
