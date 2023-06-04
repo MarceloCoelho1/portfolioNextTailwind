@@ -35,13 +35,13 @@ export default function header() {
                         <List onClick={handleMenu} size={16}/>
                         <ul className={`${showMenu ? 'block' : 'hidden'} text-white absolute right-0 top-12 bg-zinc-800 z-10 px-3 py-3 rounded-md border border-zinc-500 w-60`}>
                         <li className="">
-                            <Link className="text-sm px-3 py-2 w-full inline-block" href="">portfolio</Link>
+                            <Link className="text-sm px-3 py-2 w-full inline-block" href="/portfolio">portfolio</Link>
                         </li>
                         <li className="">
-                            <Link className="text-sm px-3 py-2 w-full inline-block" href="">objectives</Link>
+                            <Link className="text-sm px-3 py-2 w-full inline-block" href="/objectives">objectives</Link>
                         </li>
                         <li className="">
-                            <Link className="text-sm px-3 py-2 w-full inline-block" href="">github</Link>
+                            <Link className="text-sm px-3 py-2 w-full inline-block" target="_blank" href="https://www.github.com/MarceloCoelho1">github</Link>
                         </li>
                     </ul>
                     </div>
