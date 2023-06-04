@@ -2,7 +2,7 @@
 import { CaretRight } from "@phosphor-icons/react";
 import Link from "next/link";
 import Image from "next/image";
-import NodeCrud from '../../assets/images/nodeCrud.png'
+import NodeCrud from '../../../public/assets/images/nodeCrud.png'
 
 
 

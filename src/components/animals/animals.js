@@ -2,8 +2,8 @@
 import { CaretRight } from "@phosphor-icons/react";
 import Link from "next/link";
 import Image from "next/image";
-import Animals1 from '../../assets/images/animais1.png'
-import Animals2 from '../../assets/images/animais2.png'
+import Animals1 from '../../../public/assets/images/animais1.png'
+import Animals2 from '../../../public/assets/images/animais2.png'
 
 
 export default function dogs() {

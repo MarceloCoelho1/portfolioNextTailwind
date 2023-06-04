@@ -2,8 +2,8 @@
 import { CaretRight } from "@phosphor-icons/react";
 import Link from "next/link";
 import Image from "next/image";
-import Bikecraft1 from '../../assets/images/bikecraft1.png'
-import Bikecraft2 from '../../assets/images/bikecraft2.png'
+import Bikecraft1 from '../../../public/assets/images/bikecraft1.png'
+import Bikecraft2 from '../../../public/assets/images/bikecraft2.png'
 
 
 export default function dogs() {

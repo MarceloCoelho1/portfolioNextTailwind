@@ -2,8 +2,8 @@
 import { CaretRight } from "@phosphor-icons/react";
 import Link from "next/link";
 import Image from "next/image";
-import SocialPage from '../../assets/images/socialPage.png'
-import SocialPageLogin from '../../assets/images/socialPageLogin.png'
+import SocialPage from '../../../public/assets/images/socialPage.png'
+import SocialPageLogin from '../../../public/assets/images/socialPageLogin.png'
 
 export default function dogs() {
     return(

@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import SocialPage from '../../assets/images/socialPageLogin.png'
-import Bikecraft from '../../assets/images/bikecraft.png'
-import Animais from '../../assets/images/animais1.png'
-import NodeCrud from '../../assets/images/nodeCrud.png'
-import Algorithms from '../../assets/images/algorithms1.png'
+import SocialPage from '../../../public/assets/images/socialPageLogin.png'
+import Bikecraft from '../../../public/assets/images/bikecraft.png'
+import Animais from '../../../public/assets/images/animais1.png'
+import NodeCrud from '../../../public/assets/images/nodeCrud.png'
+import Algorithms from '../../../public/assets/images/algorithms1.png'
 
 import Link from 'next/link'
 

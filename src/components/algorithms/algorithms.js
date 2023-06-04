@@ -2,7 +2,7 @@
 import { CaretRight } from "@phosphor-icons/react";
 import Link from "next/link";
 import Image from "next/image";
-import Algorithms from '../../assets/images/algorithms1.png'
+import Algorithms from '../../../public/assets/images/algorithms1.png'
 
 
 

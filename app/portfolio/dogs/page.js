@@ -1,5 +1,5 @@
 import Header from '../../../src/components/header/header'
-import CodingGif from '../../../src/assets/gif/codingGif.gif'
+import CodingGif from '../../../public/assets/gif/codingGif.gif'
 import Dogs from '../../../src/components/dogs/dogs'
 
 import Image from 'next/image'

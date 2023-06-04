@@ -1,6 +1,6 @@
 import Header from '../src/components/header/header'
 import Marcelo from '../src/components/marcelo/marcelo'
-import CodingGif from '../src/assets/gif/codingGif.gif'
+import CodingGif from '../public/assets/gif/codingGif.gif'
 
 import Image from 'next/image'
 export default function Home() {

@@ -1,5 +1,5 @@
 import Header from '../../../src/components/header/header'
-import CodingGif from '../../../src/assets/gif/codingGif.gif'
+import CodingGif from '../../../public/assets/gif/codingGif.gif'
 import Bikecraft from '../../../src/components/bikecraft/bikecraft'
 
 import Image from 'next/image'

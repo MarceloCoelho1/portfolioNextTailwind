@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import Me from '../../assets/images/me.jpeg'
+import Me from '../../../public/assets/images/me.jpeg'
 import React from 'react'
 import Link from 'next/link'
 import { CaretRight, Download, GithubLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
