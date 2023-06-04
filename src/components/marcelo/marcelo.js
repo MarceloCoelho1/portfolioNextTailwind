@@ -13,7 +13,7 @@ export default function marcelo() {
         setReadMore(!readMore)
     }
     return(
-        <main className='flex flex-col max-w-lg m-auto pt-6 text-white'>
+        <main className='flex flex-col max-w-lg m-auto pt-6 text-white pb-9'>
             <h1 className='py-3 px-10 font-thin text-base bg-zinc-800 text-center rounded-md'>Hello, I'm an indie app developer based in Brazil!</h1>
             <div className='mt-4 flex items-start justify-between max-md:flex-col'>
                 <div className='mt-2 max-md:mb-4'>
