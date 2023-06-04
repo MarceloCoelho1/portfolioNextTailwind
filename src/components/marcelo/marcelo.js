@@ -94,10 +94,10 @@ export default function marcelo() {
                         </Link>
                     </li>
                     <li>
-                        <Link href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
+                        <a download href="../../assets/CV.pdf" className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <Download weight='fill'/>
                             Meu CV
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>
