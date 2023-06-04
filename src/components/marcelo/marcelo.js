@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Me from '../../assets/images/me.jpeg'
 import React from 'react'
+import Link from 'next/link'
 import { CaretRight, Download, GithubLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
 
 export default function marcelo() {
@@ -44,10 +45,10 @@ export default function marcelo() {
                 </p>
                 <button className=' text-violet-500 p-3 mt-2 hover:bg-white/5 rounded-lg' onClick={handleReadMore}>{readMore ? 'Read less' : 'Read more'}</button>
                 <div className='flex justify-center mt-3'>
-                    <a href='' className='flex items-center gap-1 px-3 py-2 bg-violet-500 max-w-max rounded-lg font-medium text-indigo-950'>
+                    <Link href='/portfolio' className='flex items-center gap-1 px-3 py-2 bg-violet-500 max-w-max rounded-lg font-medium text-indigo-950'>
                         My portfolio
                         <CaretRight size={18}/>
-                    </a>
+                    </Link>
                 </div>
                 
             </div>
@@ -75,28 +76,28 @@ export default function marcelo() {
                 <h1 className='text-xl max-w-max border-b-4 border-zinc-700 font-normal'>Socials</h1>
                 <ul className='mt-4'>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
+                        <Link target='_blank' href='https://www.github.com/marcelocoelho1' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <GithubLogo />
                             @MarceloCoelho1
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
+                        <Link target='_blank' href='https://www.instagram.com/marcelo_henri22/' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <InstagramLogo/>
                             @Marcelo_henri22
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
+                        <Link target='_blank' href='https://www.linkedin.com/in/marcelo-brito-287122204/' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <LinkedinLogo/>
                             @MarceloBrito
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
+                        <Link href='' className='flex items-center gap-2 p-3 text-violet-500 hover:bg-white/5 max-w-max rounded-lg duration-200'>
                             <Download weight='fill'/>
                             Meu CV
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
