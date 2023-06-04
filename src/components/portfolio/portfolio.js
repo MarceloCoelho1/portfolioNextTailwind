@@ -15,7 +15,7 @@ export default function portfolio() {
                 <h1 className="mb-5 text-xl font-medium">Front end</h1>
                 <div className="grid grid-cols-2 gap-8 justify-center align-top max-[450px]:grid-cols-1">
                     <div className=" flex flex-col items-center text-center">
-                        <Link href="/portolio/dogs">
+                        <Link href="/portfolio/dogs">
                             <div className="h-32 w-60 rounded-lg mb-1 max-sm:w-full max-[450px]:h-48">
                                 <Image className='h-full w-full rounded-lg' src={SocialPage}/>
                             </div>

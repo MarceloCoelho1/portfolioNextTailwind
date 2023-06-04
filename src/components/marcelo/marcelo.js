@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import CodingGif from '../../assets/gif/codingGif.gif'
+import Me from '../../assets/images/me.jpeg'
 import React from 'react'
 import { CaretRight, Download, GithubLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
 
@@ -20,7 +20,9 @@ export default function marcelo() {
                     <span className='text-sm break-words'>Digital Craftsman ( Artist / Developer / Designer )</span>
                 </div>
                 <div className='max-md:mb-6 max-md:flex max-md:justify-center max-md:w-full'>
-                    <div className='w-28 h-28 rounded-full bg-white border border-zinc-700'></div>
+                    <div className='w-28 h-28 rounded-full border border-zinc-700'>
+                        <Image className='rounded-full' src={Me}/>
+                    </div>
                 </div>
             </div>
             <div>
