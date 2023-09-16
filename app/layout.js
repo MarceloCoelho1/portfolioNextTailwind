@@ -1,5 +1,6 @@
 import './globals.css'
 import { Poppins } from 'next/font/google'
+import { ThemeProvider, useTheme } from '../utils/themeContext/ThemeContext';
 
 const poppins = Poppins({
   weight: ['300','400', '500', '700'],
@@ -14,9 +15,12 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
   return (
-    <html className='bg-zinc-900 px-4' lang="en">
-      <body className={poppins.className} >{children}</body>
-    </html>
+      <ThemeProvider>
+        <html className={`bg-zinc-900 px-4' lang="en`}>
+            <body className={poppins.className} >{children}</body>
+        </html>
+      </ThemeProvider>
   )
 }

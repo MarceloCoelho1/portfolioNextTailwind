@@ -15,11 +15,7 @@ export default function objectives() {
                 What im currently studying
             </h1>
             <p className="indent-4 text-justify break-words mb-10">
-                Currently, I am studying front-end development exclusively with React and 
-                Next.js, alongside algorithms and data structures using Java. My focus in 
-                algorithms is geared towards interviews with major companies like Google and 
-                Amazon. I am deeply passionate about these two areas of study and 
-                continuously deepening my understanding.
+                Currently, I am studying front-end development exclusively with React and Next.js, alongside algorithms and data structures using Cpp, Python and Java. My focus in algorithms is geared towards interviews with major companies like Google and Amazon. I am deeply passionate about these two areas of study and continuously deepening my understanding.
             </p>
         </main>
     ) 

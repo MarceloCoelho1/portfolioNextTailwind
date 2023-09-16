@@ -14,11 +14,11 @@ export default function marcelo() {
     }
     return (
         <main className='flex flex-col max-w-lg m-auto pt-6 text-white pb-9'>
-            <h1 className='py-3 px-10 font-thin text-base bg-zinc-800 text-center rounded-md'>Hello, I'm an indie app developer based in Brazil!</h1>
+            <h1 className='py-3 px-10 font-thin text-base bg-zinc-800 text-center rounded-md'>Hello, I'm a computer science student based in Brazil!</h1>
             <div className='mt-4 flex items-start justify-between max-md:flex-col'>
                 <div className='mt-2 max-md:mb-4'>
                     <h1 className='text-3xl font-semibold'>Marcelo Henrique</h1>
-                    <span className='text-sm break-words'>Digital Craftsman ( Artist / Developer / Designer )</span>
+                    <span className='text-sm break-words'>Computer Science Student</span>
                 </div>
                 <div className='max-md:mb-6 max-md:flex max-md:justify-center max-md:w-full'>
                     <div className='w-28 h-28 rounded-full border border-zinc-700'>
@@ -29,12 +29,10 @@ export default function marcelo() {
             <div>
                 <h1 className='text-xl max-w-min border-b-4 border-zinc-700 font-normal'>About</h1>
                 <p className='indent-4 mt-4 text-justify break-words'>
-                    Marcelo is a freelance professional and front-end developer based in
-                    Recife. He has a passion for solving real-life problems with code and
-                    has a keen interest in studying various fields of technology, including
-                    software engineering, cybersecurity, algorithms, and more. Marcelo's
-                    curiosity drives him to continuously explore new domains and expand his
-                    knowledge.
+                    I am a Computer Science student with a focus on programming. I am passionate about programming and aim to become a highly skilled professional. To achieve this, I am constantly refining my skills. I am seeking my first internship experience to apply my knowledge in practice.
+                </p>
+                <p className='indent-4 mt-4 text-justify break-words'>
+                    I enjoy understanding how things work behind the scenes and creating new solutions that are useful to people. My ultimate goal is to work for a big tech company such as Google or Amazon. To achieve this, I am committed to deepening my knowledge and avoiding the superficiality that many programmers fall into.
                 </p>
                 <p className={`${readMore ? 'block' : 'hidden'} indent-4 text-justify mt-4 break-words`}>
                     In his spare time, Marcelo enjoys immersing himself in books, ranging
@@ -69,7 +67,7 @@ export default function marcelo() {
             <div className='mb-6'>
                 <h1 className='text-xl max-w-max border-b-4 border-zinc-700 font-normal'>I ♥</h1>
                 <p className='indent-4 mt-4 break-words'>
-                    Music, Books, study, programming, talk about technology, play videogames, coffee ☕.
+                    Music, Books, study, programming, talk about technology, play videogames, create new things, and of course, coffee ☕.
                 </p>
             </div>
             <div>

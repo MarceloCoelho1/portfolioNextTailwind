@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+const tailwindcssDarkMode = require('tailwindcss-dark-mode');
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,7 +11,14 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        dark: '#333333', // Cor de fundo para dark mode
+        light: '#ffffff', // Cor de fundo para light mode
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    tailwindcssDarkMode
+  ],
 }

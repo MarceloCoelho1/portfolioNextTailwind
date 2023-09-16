@@ -2,8 +2,10 @@
 import React from "react";
 import Link from "next/link";
 import { List, Sun } from "@phosphor-icons/react";
+import { useTheme } from '../../../utils/themeContext/ThemeContext';
 
 export default function header() {
+    const { isDarkMode, toggleDarkMode } = useTheme();
     const [showMenu, setShowMenu] = React.useState(false)
 
     const handleMenu = () => {
@@ -11,7 +13,7 @@ export default function header() {
     }
 
     return (
-        <header className="py-3 px-2 max-md:px-0 fixed w-full bg-zinc-900/30 backdrop-blur z-20">
+        <header className={`py-3 px-2 max-md:px-0 fixed w-full bg-${isDarkMode ? 'zinc-900/30' : 'white/25'} backdrop-blur z-20`}>
             <div className="max-w-2xl m-auto flex items-center justify-between">
                 <div className="flex items-center ">
                     <Link href="/" className="mr-6 text-white text-xl font-semibold">Marcelo.dev</Link>
@@ -28,9 +30,9 @@ export default function header() {
                     </ul>
                 </div>
                 <div className="flex items-center gap-2 max-md:mr-8">
-                    <div className="text-black bg-yellow-200 rounded-md p-3">
+                    <button onClick={toggleDarkMode} className="text-black bg-yellow-200 rounded-md p-3">
                         <Sun size={16} weight="light"/>
-                    </div>
+                    </button>
                     <div className="text-white p-3 hidden relative rounded-md border border-zinc-700 max-md:block">
                         <List onClick={handleMenu} size={16}/>
                         <ul className={`${showMenu ? 'block' : 'hidden'} text-white absolute right-0 top-12 bg-zinc-800 z-10 px-3 py-3 rounded-md border border-zinc-500 w-60`}>
