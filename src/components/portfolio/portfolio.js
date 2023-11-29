@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 export default function portfolio() {
     return (
-        <main className="flex flex-col max-w-lg m-auto pt-6 text-white">
+        <main className="flex flex-col max-w-lg m-auto pt-6 text-white max-md:px-2">
             <div className=" border-b-2 border-b-zinc-800 pb-9 mb-9">
                 <h1 className="mb-5 text-xl font-medium">Front end</h1>
                 <div className="grid grid-cols-2 gap-8 justify-center align-top max-[450px]:grid-cols-1">

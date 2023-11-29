@@ -2,7 +2,7 @@
 
 export default function objectives() {
     return(
-        <main className='flex flex-col max-w-lg m-auto pt-6 text-white'>
+        <main className='flex flex-col max-w-lg m-auto pt-6 text-white max-md:px-2'>
             <h1 className="mb-5 text-3xl font-medium">Objectives</h1>
             <p className="indent-4 text-justify break-words mb-10">
                 I aspire to work as a software engineer in a big tech company like Google, Amazon, 
